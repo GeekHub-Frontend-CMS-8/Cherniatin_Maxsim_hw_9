@@ -11,6 +11,7 @@
     border: 1px solid $color-gray-saturated;
     padding-bottom: 36px;
     margin-bottom: 20px;
+    position: relative;
   }
   &__item--selected{
     flex-basis: 400px;
@@ -21,10 +22,10 @@
     align-items: center;
     padding: 30px 0;
     border-bottom: 1px solid $color-gray-saturated;
-  }
-  &__item--title--wrapper--selected {
-    padding-top: 64px;
-    border-top: 5px solid $color-conversion;
+    &:hover {
+      height: 150px;
+      border-top: 5px solid $color-conversion;
+    }
   }
   &__item--title--headline {
     color: $color-conversion;

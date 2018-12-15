@@ -2,14 +2,11 @@
   background: url("../img/team__img.png") no-repeat center/cover;
   padding: 100px 0 113px;
   &__list {
-    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     margin-bottom: 93px;
-    @media (max-width: 583px) {
-      display: flex;
-      flex-direction: column;
-    }
   }
   &__item {
     max-width: 270px;
