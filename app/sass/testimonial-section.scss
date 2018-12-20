@@ -6,12 +6,12 @@
     text-align: center;
   }
   &__description {
-    color: #2b3746;
+    color: $color;
     font: 400 16px/26px $font-OpenSans;
     margin-bottom: 22px;
   }
   &__bracket {
-    color: #2b3746;
+    color: $color;
     font: 700 40px/26px $font-Montserrat;
     font-style: italic;
     margin-bottom: 32px;
